@@ -41,9 +41,9 @@ You can post it in the collector issue. Then, the #emails-blogs channel on [Slac
 
 **Update the mailing list** by downloading CSVs of the latest backers from Celery (both the team@tessel and support@technical logins) and importing them to the Website Signups list in Mailchimp. [If you don't know how to do this/don't have the logins, ask [@Frijol](//github.com/frijol), [@tcr](//github.com/tcr), or [@johnnyman727](//github.com/johnnyman727).]
 
-**Create the campaign** using the This Week in Tessel template. You'll have to convert to Mailchimp's format from Markdown. Use the title as the subject line, and name the campaign something like "This Week in Tessel - Date"
+**Create the campaign** using the [This Week in Tessel template](http://templates.mailchimp.com/getting-started/using-mailchimp/). You'll have to convert to Mailchimp's format from Markdown. Use the title as the subject line, and name the campaign something like "This Week in Tessel - Date"
 
-**Preview** using Mailchimp's preview and test menu. Be sure to send at least one test email and read it over carefully.
+**Preview** using Mailchimp's [preview and test menu](http://kb.mailchimp.com/campaigns/previews-and-tests/preview-and-test-your-campaign). Be sure to send at least one test email and read it over carefully.
 
 **Send!** Ideally sometime in the morning.
 
