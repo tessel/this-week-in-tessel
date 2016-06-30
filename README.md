@@ -18,9 +18,9 @@ Team Members should post their own content once it is merged. If the post is sub
 
 All Team Members should have access to the password for the Tessel tumblr via our password management system. (If you don't, request access from a Steering Committee member.)
 
-On the Tessel blog (tumblr), sign in, create a new text post, and copy in the markdown version of the email.
+On the Tessel blog (tumblr), sign in, create a new text post, and copy in the full post text in Markdown.
 
-Add relevant tags, including `update` `this week in tessel `twit` `updates`.
+Add relevant tags, including `update` `this week in tessel `twit` `updates` for TWIT posts.
 
 Publish! Then to push live, follow Production Release instructions on the [tessel.io](//github.com/tessel/tessel.io) repo.
 
