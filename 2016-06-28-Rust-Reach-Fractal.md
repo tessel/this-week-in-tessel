@@ -2,7 +2,7 @@
 
 The aim of the Tessel Project is to create a fully open source hardware & software platform that makes it easy and intuitive to develop Internet-connected devices.
 
-With Tessel 1, we tackled the "easy and intuitive" part of that mission statement. Tessel 2 furthered that piece of the mission, and began to work towards letting developers build at scale. Specifically, I think we've done quite well towards fulfilling two of our core philosophies:
+With Tessel 1, we tackled the "easy and intuitive" part of that mission statement. Tessel 2 furthered that piece of the mission, and began to work towards letting developers build at scale. Specifically, I think we've done quite well towards fulfilling two of our [core philosophies](https://github.com/tessel/project/blob/master/MISSION.md):
 
 > **Developer experience is paramount.** Tessel should be the fastest way to build an idea, regardless of your background (or lack thereof) in electrical engineering or computer programming. Branding, documentation, and engineering design decisions should always take this into account.
 
@@ -70,8 +70,8 @@ We've come some of the way towards making Tessel 2 the base for a product you ca
 
 Drawing on some exploratory work we did over a year ago, we think we can work on these problems such that their solutions build upon each other. Here's the idea:
 
-1. Work on improved **Rust** support. The Rust language executes code much faster and more robustly than JavaScript and should serve well in production. The code is overall pretty legible, and it's a welcoming community with good documentation. We've already begun tooling for this on the [tessel-rust](//github.com/tessel/tessel-rust) repo.
-1. Build on this for our **Tessel Reach** project: cheap, low-power BLE boards which break out to Tessel module ports. Tessel Reach boards serve as sensor nodes in a star network and are directed by a central Tessel 2 board. You program Tessel 2 in JavaScript; it compiles and sends as-needed communication in Rust to Reach nodes. We have a prototype of this implemented in Rust as the Gossip protocol. We also have some prototype hardware for this. You can see a bit more detail on [this issue](https://github.com/tessel/project/issues/142).
+1. Work on improved **Rust** support. The Rust language executes code much faster and more robustly than JavaScript and should serve well in production. The code is overall pretty legible, and it's a welcoming community with good documentation. We've already begun tooling for this on the [tessel-rust](//github.com/tessel/tessel-rust) repo. Tessel Project work on Rust doesn't mean reduced support for or interest in JavaScript – we think they have the potential to play well together and want both to have first-class support.
+1. Build on this for our **Tessel Reach** project: cheap, low-power boards which break out to Tessel module ports. Think of a Reach board as an extension cable for a module– this is how it should feel to use one. Except instead of the long wires and limited number of modules, Tessel Reach boards will connect wirelessly to a USB BLE dongle on T2 and not be limited by the number of module ports available on the Tessel 2. You can see a bit more detail on [this issue](https://github.com/tessel/project/issues/142).
 1. Use the JavaScript --> Rust compilation work to begin building the **Fractal** project: software tooling to help you optimize your prototype (software and hardware) into production. Explicit hardware requirements and memory-efficient software can let us begin to suggest hardware optimization. Eventually, this would move toward easily comprehensible messaging, such as "compile to Rust and reduce your file size of X to Y", "you aren't using Module Port B, remove it?" and "you're only using Y memory- you may want to consider this cheaper chip (link)".
 
 ## What do you think?
