@@ -84,7 +84,7 @@ When it comes down to it, that's the crux. What do you think? Is this something 
 
 > **Community matters.** This project should be a welcoming, inclusive, and respectful place. It’s important to communicate, to question, and to come together.
 
-Please reach out on -ISSUE ON TESSEL/PROJECT?- and let us know what you think. We need to hear if you're excited, if you're unexcited, or if there's something in particular you want to do. Because in the end, the Tessel Project is built out of the community, and we can't do it without you.
+Please reach out on [this issue](https://github.com/tessel/project/issues/186), share your knowledge and use cases, and let us know what you think. We need to hear if you're excited, if you're unexcited, or if there's something in particular you want to do. Because in the end, the Tessel Project is built out of the community, and we can't do it without you.
 
 See you soon.
 
