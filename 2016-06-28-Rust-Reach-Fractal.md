@@ -68,17 +68,21 @@ Coming back to the core, we want to build the OSHW movement through our platform
 
 We've come some of the way towards making Tessel 2 the base for a product you can take to market. But we're not all the way there yet. Here are some of the issues we see:
 
-1. It's not easy for most of the Tessel community to take the tools we've created so far and go to market. If you don't come from an electrical engineering background, the next step might be insurmountably daunting. Firstly, you might not know what the next step is: what do you when you have one of something and want more? What do you need to change, or make, and why? Secondly, if you wanted to make your design more efficient, you might not know what things you can afford to remove from the design, or how much efficiency or cost they would save you.
-1. Connected device products tend to exist in a networked configuration, usually involving several low-cost, low-power devices. A standard for usability in this vein is the ability to run on a battery for months to years. This makes Tessel 2 not well suited to a lot of product applications.
-1. You can optimize to a point, but at the end of the day you are running JavaScript. This might not be as efficient or as innately reliable as you want your product to be. Additionally, you might have needs that are not supported in the language.
+1. It's not easy for most of the Tessel community to take the tools we've created so far and go to market. What do you do after you have a prototype– efficiency changes? Printing your own boards? Even if you knew what to do after building a prototype on Tessel 2, you might not know how to do it.
+
+1. Connected device products tend to exist in a networked configuration. This usually involves several low-cost, low-power devices. A standard for usability in this vein is the ability to run on a battery for months to years. This makes Tessel 2 not well suited to a lot of product applications.
+
+1. You can optimize to a point, but at the end of the day you are running JavaScript. This might not be as efficient or as reliable as you want your product to be. Additionally, you might have needs that are not supported in the language.
 
 ## A path forward: Rust, Reach, and Fractal
 
-Drawing on some exploratory work we did over a year ago, we think we can work on these problems such that their solutions build upon each other. Here's the idea:
+We think we can work on these problems such that their solutions build upon each other. Here's the idea:
 
-1. Work on improved **Rust** support. The Rust language executes code much faster and more robustly than JavaScript and should serve well in production. The code is overall pretty legible, and it's a welcoming community with good documentation. We've already begun tooling for this on the [tessel-rust](//github.com/tessel/tessel-rust) repo. Tessel Project work on Rust doesn't mean reduced support for or interest in JavaScript – we think they have the potential to play well together (check out the [Neon](https://github.com/rustbridge/neon) project!) and want both to have first-class support.
-1. Build on this for our **Tessel Reach** project: cheap, low-power boards which break out to Tessel module ports. Think of a Reach board as an extension cable for a module– this is how it should feel to use one. Except instead of the long wires and limited number of modules, Tessel Reach boards will connect wirelessly to a USB BLE dongle on T2 and not be limited by the number of module ports available on the Tessel 2. You can see a bit more detail on [this issue](https://github.com/tessel/project/issues/142).
-1. Use the JavaScript --> Rust compilation work to begin building the **Fractal** project: software tooling to help you optimize your prototype (software and hardware) into production. Explicit hardware requirements and memory-efficient software can let us begin to suggest hardware optimization. Eventually, this would move toward easily comprehensible messaging, such as "compile to Rust and reduce your file size of X to Y", "you aren't using Module Port B, remove it?" and "you're only using Y memory- you may want to consider this cheaper chip (link)".
+1. Work on improved **Rust** support. The Rust language executes code much faster and more robustly than JavaScript. It should serve well in production. The code is pretty legible, and it's a welcoming community with good documentation. We've already begun tooling for this on the [tessel-rust](//github.com/tessel/tessel-rust) repo. Work on Rust doesn't mean reduced support for or interest in JavaScript. We think they have [the potential to play well together](https://github.com/rustbridge/neon). Both will have first-class support.
+
+1. Build on this for our **Tessel Reach** project: cheap, low-power boards. Think of a Reach board as a wireless extension cable from a Tessel 2 to a module– this is how it should feel to use one. You can see a bit more detail on [this issue](https://github.com/tessel/project/issues/142).
+
+1. Use the JavaScript --> Rust compilation work to begin building the **Fractal** project. Fractal is software tooling to help you optimize your prototype into production. Explicit hardware requirements and memory-efficient software can let us begin to suggest hardware optimization. This would move toward comprehensible messaging. Examples might be: "Compile to Rust and reduce your file size of X to Y." "You aren't using Module Port B, remove it?" and "You're only using Y memory- you may want to consider this cheaper chip (link)".
 
 ## What do you think?
 
