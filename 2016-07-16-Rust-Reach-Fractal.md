@@ -29,7 +29,7 @@ In hardware, this is nearly unheard of. It is common to build a first prototype 
 With Tessel 2, we say: you shouldn't have to. This concept drove the following design decisions:
 
 * We chose components so that you can use the same ones in production. Every part used for Tessel 2 will continue to be manufactured and supported for a few years. Each can be sourced in low (100x) quantities.
-* Tessel 2 was designed in KiCad. This is perhaps the only a free, open, fully-featured electrical engineering design tool available. Beyond publishing our [design files](https://github.com/tessel/t2-hardware), we want to make sure you can change and build on what we've created.
+* Tessel 2 was designed in KiCad. This is perhaps the only free, open, fully-featured electrical engineering design tool available. Beyond publishing our [design files](https://github.com/tessel/t2-hardware), we want to make sure you can change and build on what we've created.
 * Tessel 2 is physically laid out so that you can easily remove features. A block diagram of Tessel's hardware corresponds to its physical layout, so if you don't need e.g. the ethernet port, you can remove it from the design (and save yourself the cost of the header) in your final product.
 
 ![Tessel 2 block diagram](http://softdroid.net/sites/default/files/resize/remote/eb0193ce7bae91d87724d28642c83ab7-500x458.png)
