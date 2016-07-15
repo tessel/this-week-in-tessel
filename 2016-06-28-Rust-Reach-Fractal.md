@@ -34,7 +34,7 @@ With Tessel 2, we say: you shouldn't have to. This concept drove the following d
 
 ![Tessel 2 block diagram](http://softdroid.net/sites/default/files/resize/remote/eb0193ce7bae91d87724d28642c83ab7-500x458.png)
 
-This takes OSHW beyond just licensing. We want you to take our designs and use the parts of them you need in your own products. With your help, we can push the boundaries of OSHW. OSHW should be a platform for serious product development, not only a sharing marketplace for makers.
+This takes open source hardware (OSHW) beyond just licensing. We want you to take our designs and use the parts of them you need in your own products. With your help, we can push the boundaries of OSHW. OSHW should be a platform for serious product development, not only a sharing marketplace for makers.
 
 > Openness promotes innovation. Tessel is fully open source, hardware and software, so that developers can create and build on these efforts, as projects and as products, without worry of legal hassle. This project seeks to expand and promote openness as a movement in both software and hardware, and be a leader in community developed hardware.
 
