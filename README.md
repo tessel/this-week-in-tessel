@@ -20,7 +20,7 @@ All Team Members should have access to the password for the Tessel tumblr via ou
 
 On the Tessel blog (tumblr), sign in, create a new text post, and copy in the full post text in Markdown.
 
-Add relevant tags, including `update` `this week in tessel `twit` `updates` for TWIT posts.
+Add relevant tags, including `update` `this week in tessel` `twit` `updates` for TWIT posts.
 
 Publish! Then to push live, follow Production Release instructions on the [tessel.io](//github.com/tessel/tessel.io) repo.
 
@@ -38,14 +38,14 @@ Also post it in [/r/Tessel](http://www.reddit.com/r/Tessel).
 
 1. Create an issue to collect content. [Example](https://github.com/tessel/this-week-in-tessel/issues/10)
 1. Figure out if there's any major update/call to action/etc. we need from the community and include as necessary.
-2. Collect blog post links, projects, etc. from the community. The easiest way to do this is to look at what we've tweeted/retweeted in the last week. [Our Twitter profile](https://twitter.com/technicalhumans)
+2. Collect blog post links, projects, etc. from the community. The easiest way to do this is to look at what we've tweeted/retweeted in the last week. [Our Twitter profile](https://twitter.com/tesselproject)
 2. Look at our latest hardware/software updates and note if there's anything particularly interesting or exciting.
 
 ### Write the TWIT
 
 Keep it short, and cut content liberally. You can find a template in [TWIT-template.md](https://github.com/tessel/this-week-in-tessel/blob/master/TWIT-template.md).
 
-Copy the template, fill it in, and create a pull request mentioning a fix to the collector issue. Then, the #reviews channel on [Slack](https://tessel-slack.herokuapp.com/) is a good place to seek feedback.
+Copy the template. Rename to include the date of intended publication in the filename as YYYY-MM-DD-TWIT.md. Fill it in, and create a pull request mentioning a fix to the collector issue. Then, the #reviews channel on [Slack](https://tessel-slack.herokuapp.com/) is a good place to seek feedback.
 
 ## Send the email
 
