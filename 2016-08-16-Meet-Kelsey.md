@@ -73,3 +73,5 @@ My advice: **contribute even if you feel completely unqualified.** We have a num
 [This is how you learn. It's hard. You feel stupid.](https://medium.com/@SelkeyMoonbeam/theres-this-weird-thing-about-programming-aac366676f16#.yjcfixfrb) You put yourself out there on the internet. But we're here, and we want to help you.
 
 Sometimes, what you need is a good project to learn on. Tessel was that project for me, and I hope it can be for you, too.
+
+[Kelsey Breseman](//twitter.com/selkeymoonbeam)
