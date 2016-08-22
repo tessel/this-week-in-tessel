@@ -1,6 +1,6 @@
-### Hi from tessel-crashbot
+### The Tessel Crash Reporter service
 
-The Tessel 2 [crash reporter](http://crash-reporter.tessel.io) is a web service which automatically collects anonymized crash reports when a crash is detected in the Tessel 2's command line interface (CLI). Given that the CLI is one of the primary ways of interacting with your Tessel it is important that the CLI be extremely stable; so it's a joy to use.
+The Tessel 2 [crash reporter](http://crash-reporter.tessel.io) is a web service which automatically collects anonymized crash reports when a crash is detected in the Tessel 2's command line interface (CLI). Given that the CLI is one of the primary ways of interacting with your Tessel it is important that the CLI be extremely stable; so that it can be a joy to use.
 
 This project started during the early days of the CLI. We wanted to make sure that the team was proactively fixing issues that users could potentially run into, so the onboarding experience was as smooth as possible.
 
@@ -21,13 +21,13 @@ INFO Detected a crash in the CLI. Submit crash (y/n) ?
    If yes(y), subsequent crashes will be submitted automatically.
 ```
 
-#### The Crash reporter service
+#### The service
 
-The Crash reporter web service collects the crash report, and de-duplicates it using the Sim Hash algorithm. Sim Hash looks at the contents of the crash report and computes a unique signature (called the `fingerprint`) and also keeps track of the `frequency` of the occurence of the report. The service also provides a way to look at `Trending` crashes and also provides a full text `Search` API. The service itself is built using [Google App Engine](https://cloud.google.com/appengine/docs) and the Python Runtime. The full source code for the service is [here](https://github.com/tessel/t2-crash-reporter).
+The Crash reporter web service collects the crash report, and de-duplicates it using the Sim Hash algorithm. Sim Hash looks at the contents of the crash report and computes a unique signature (called the `fingerprint`) and also keeps track of the `frequency` of the occurence of the report. The service also provides a way to look at `Trending` crashes and also provides a full text `Search` API. The service itself is built using [Google App Engine](https://cloud.google.com/appengine/docs) and the Python Runtime. The full source code for the service is [here](https://github.com/tessel/t2-crash-reporter). 
 
-#### GitHub Integration
+#### Hi from tessel-crashbot
 
 [Recently](https://github.com/tessel/t2-crash-reporter/issues/15) we landed a really cool feature in the Crash reporter service. In an effort to simplify the worflow of the Tessel team, which manages all feature requests and bug-fixes using GitHub issues; the service now automatically creates a GitHub issue for every new crash. Anytime there is a new crash in the wild, the ever friendly `tessel-crashbot` is ready to help proactively keep track of the problem.
 
-![Image of crashbot submission](images/crash_bot.png).
+![Image of crashbot submission](images/crash_bot.png =150px).
 
