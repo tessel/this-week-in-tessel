@@ -1,14 +1,14 @@
 ### The Tessel Crash Reporter service
 
-The Tessel 2 [crash reporter](http://crash-reporter.tessel.io) is a web service which automatically collects anonymized crash reports when a crash is detected in the Tessel 2's command line interface (CLI). Given that the CLI is one of the primary ways of interacting with your Tessel it is important that the CLI be extremely stable; so that it can be a joy to use.
+The Tessel 2 [crash reporter](http://crash-reporter.tessel.io) is a web service which automatically collects anonymized crash reports when a crash is detected in the Tessel 2's command line interface (CLI). Given that the CLI is one of the primary ways of interacting with your Tessel it is important that the CLI be extremely stable and a joy to use.
 
-This project started during the early days of the CLI. We wanted to make sure that the team was proactively fixing issues that users could potentially run into, so the onboarding experience was as smooth as possible.
+This project started during the early days of the CLI. We wanted to make sure that the team was proactively looking at, and fixing issues that users could potentially run into. We wanted the onboarding experience was as smooth as possible for new users.
 
 #### How does it work
 
-Every time you use the Tessel 2 CLI, a central controller dispatches your command to an appropriate handler. The crash reporter automatically checks for uncaught `Errors` and `Promises` in the node process. 
+Every time you use the Tessel 2 CLI, a central controller dispatches your command to an appropriate task handler. The crash reporter automatically checks for uncaught `Errors` and unresolved `Promises` in the node process that's executing the task. 
 
-Once it detects a crash, it removes all PII (personally identifiable information) from the stack trace, and uploads it to the Crash reporter web service with the user's permission. Below is an example of what that looks like:
+Once the crash reporter detects a crash, it removes all PII (personally identifiable information) from the stack trace, and uploads it to the Crash reporter web service with the user's permission. Below is an example of what that interaction looks like:
 
 ```javascript
 ERR! Detected CLI crash [Error: Testing the crash reporter] Error: Testing the crash reporter
@@ -27,7 +27,9 @@ The Crash reporter web service collects the crash report, and de-duplicates it u
 
 #### Hi from tessel-crashbot
 
-[Recently](https://github.com/tessel/t2-crash-reporter/issues/15) we landed a really cool feature in the Crash reporter service. In an effort to simplify the worflow of the Tessel team, which manages all feature requests and bug-fixes using GitHub issues; the service now automatically creates a GitHub issue for every new crash. Anytime there is a new crash in the wild, the ever friendly `tessel-crashbot` is ready to help proactively keep track of the problem.
+[Recently](https://github.com/tessel/t2-crash-reporter/issues/15) we landed a really cool feature in the Crash reporter service. In an effort to simplify the worflow of the Tessel team, which manages all feature requests and bug-fixes using GitHub [issues](https://github.com/tessel/t2-cli/issues); the service uses GitHub's API to automatically create and manage issues for every crash report. Anytime there is a new crash in the wild, the ever friendly 
+`tessel-crashbot` is ready to help proactively keep track of the problem. 
 
-![Image of crashbot submission](images/crash_bot.png =150px).
+![Image of crashbot submission](images/crash_bot.png).
+
 
