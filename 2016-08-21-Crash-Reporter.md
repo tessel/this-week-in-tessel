@@ -49,6 +49,6 @@ The Crash reporter web service collects the crash report, and de-duplicates it u
 [Recently],(https://github.com/tessel/t2-crash-reporter/issues/15) we landed a really cool feature in the Crash reporter service. In an effort to simplify the worflow of the Tessel team, which manages all feature requests and bug-fixes using GitHub [issues](https://github.com/tessel/t2-cli/issues); the Crash reporter service uses GitHub's API to automatically create and manage issues for every crash report. Anytime there is a new crash in the wild, the ever friendly 
 `tessel-crashbot` is ready to help proactively keep track of the problem. The `tessel-crashbot` also updates the GitHub issue via comments when it sees an uptick in the frequency of a crash. This helps the team identify the severity of a crash report.
 
-![Image of crashbot submission](images/crash_bot.png).
+![Image of crashbot submission](http://i.imgur.com/4rCxiXG.png).
 
 
