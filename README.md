@@ -50,14 +50,14 @@ Copy the template. Rename to include the date of intended publication in the fil
 
 ## Send the email
 
-**Create the campaign** using the [This Week in Tessel template](http://templates.mailchimp.com/getting-started/using-mailchimp/).
+**Create a new campaign**. Name the campaign something like "This Week in Tessel - Date". Set the subject to "This Week in Tessel: *Some content here...*"
 
-Name the campaign something like "This Week in Tessel - Date"
+![Select "Saved Templates" and click the "TWIT Reference".](https://cloud.githubusercontent.com/assets/80639/18758377/d995a3e6-80c5-11e6-8008-a52d43aaa7bd.png) You'll be brought to the responsive text editor.
 
-Copy and paste the rendered markdown from any markdown renderer, instead of using Mailchimp's specialized formatting (because, what a pain otherwise). Mailchimp handles this pretty gracefully, but read it over anyway just in case.
+Copy and paste the rendered markdown from any markdown renderer, instead of using Mailchimp's specialized formatting (because, what a pain otherwise). Mailchimp handles this pretty gracefully, but read it over anyway just in case. **Preview** using SendInBlue's [preview widgets](https://cloud.githubusercontent.com/assets/80639/18758404/f8a6c238-80c5-11e6-86fa-782b24bf89c8.png) to see the final rendering. (The final rendering will differ from the responsive editor.)
 
-**Preview** using Mailchimp's [preview and test menu](http://kb.mailchimp.com/campaigns/previews-and-tests/preview-and-test-your-campaign). Be sure to send at least one test email and read it over carefully.
+In the **2. Build** step, scroll to the bottom to "Send a Test" to your email address. Be sure to send at least one test email and read it over carefully.
 
 **Send!** Ideally sometime in the morning on a weekday.
 
-Also follow the blog-posting instructions.
+Also follow the blog-posting instructions above.
