@@ -52,18 +52,23 @@ Copy the template. Rename to include the date of intended publication in the fil
 
 **Create a new campaign**. Set the campaign and subject to the same name, e.g. "This Week in Tessel: *Some content here...*"
 
-![Select "Saved Templates" and click the "TWIT Reference".](https://cloud.githubusercontent.com/assets/80639/18758377/d995a3e6-80c5-11e6-8008-a52d43aaa7bd.png) You'll be brought to the responsive text editor.
+[Select "Saved Templates" and click the "TWIT Reference".](https://cloud.githubusercontent.com/assets/80639/18758377/d995a3e6-80c5-11e6-8008-a52d43aaa7bd.png) You'll be brought to the responsive text editor.
 
-The main text block has an HTML editor (the leftmost icon with angle brackets `<>` in it). The easiest way to convert the Markdown content for this email into HTML for the email is to use the `twitgen` NPM module, included in this repository.
+The main text block has an HTML editor (the leftmost icon with angle brackets `<>` in it). The easiest way to convert the Markdown content for this email into HTML for the email is to use the `twitgen` NPM module. It is included in this repository and can be installed:
 
 ```
-npm i -g twitgen
-twitgen 2016-09-10-TWIT.md
+$ npm i -g ./twitgen
 ```
 
-Copy the HTML into the responsive editor. If `twitgen` instructs you to in its output, split text blocks where a large image should be, adding an image section using the left toolbar in the responsive text editor.
+Then you are able to convert a markdown file locally into SendInBlue-compatible HTML:
 
-**Preview** using SendInBlue's [preview widgets](https://cloud.githubusercontent.com/assets/80639/18758404/f8a6c238-80c5-11e6-86fa-782b24bf89c8.png) to see the final rendering. (The final rendering will differ from the responsive editor.)
+```
+$ twitgen 2016-09-10-TWIT.md
+```
+
+Copy the HTML into the responsive editor. If instructed by the output of `twitgen`, split text blocks where a large image should be, adding an image section using the left toolbar in the responsive text editor.
+
+**Preview** using SendInBlue's [preview widgets](https://cloud.githubusercontent.com/assets/80639/18758404/f8a6c238-80c5-11e6-86fa-782b24bf89c8.png) to see the final rendering. (The editor will render content different than how it is sent; use the "preview" widget to see the final rendering as it would appear in an email.)
 
 When you **Save & Exit** the campaign email, while still in the **"Build"** step, scroll to the bottom to "Send a Test" to your email address. Be sure to send at least one test email and read it over carefully.
 
