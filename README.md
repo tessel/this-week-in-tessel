@@ -50,14 +50,28 @@ Copy the template. Rename to include the date of intended publication in the fil
 
 ## Send the email
 
-**Create the campaign** using the [This Week in Tessel template](http://templates.mailchimp.com/getting-started/using-mailchimp/).
+**Create a new campaign**. Set the campaign and subject to the same name, e.g. "This Week in Tessel: *Some content here...*"
 
-Name the campaign something like "This Week in Tessel - Date"
+[Select "Saved Templates" and click the "TWIT Reference".](https://cloud.githubusercontent.com/assets/80639/18758377/d995a3e6-80c5-11e6-8008-a52d43aaa7bd.png) You'll be brought to the responsive text editor.
 
-Copy and paste the rendered markdown from any markdown renderer, instead of using Mailchimp's specialized formatting (because, what a pain otherwise). Mailchimp handles this pretty gracefully, but read it over anyway just in case.
+The main text block has an HTML editor (the leftmost icon with angle brackets `<>` in it). The easiest way to convert the Markdown content for this email into HTML for the email is to use the `twitgen` NPM module. It is included in this repository and can be installed:
 
-**Preview** using Mailchimp's [preview and test menu](http://kb.mailchimp.com/campaigns/previews-and-tests/preview-and-test-your-campaign). Be sure to send at least one test email and read it over carefully.
+```
+$ npm i -g ./twitgen
+```
+
+Then you are able to convert a markdown file locally into SendInBlue-compatible HTML:
+
+```
+$ twitgen 2016-09-10-TWIT.md
+```
+
+Copy the HTML into the responsive editor. If instructed by the output of `twitgen`, split text blocks where a large image should be, adding an image section using the left toolbar in the responsive text editor.
+
+**Preview** using SendInBlue's [preview widgets](https://cloud.githubusercontent.com/assets/80639/18758404/f8a6c238-80c5-11e6-86fa-782b24bf89c8.png) to see the final rendering. (The editor will render content different than how it is sent; use the "preview" widget to see the final rendering as it would appear in an email.)
+
+When you **Save & Exit** the campaign email, while still in the **"Build"** step, scroll to the bottom to "Send a Test" to your email address. Be sure to send at least one test email and read it over carefully.
 
 **Send!** Ideally sometime in the morning on a weekday.
 
-Also follow the blog-posting instructions.
+Also follow the blog-posting instructions above.
