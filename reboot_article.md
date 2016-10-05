@@ -16,6 +16,13 @@ Now, lets take a closer look at what it took to bring these features to life...
 ---
 # WORK IN PROGRESS START
 
+The meat of this article should go over interesting bits of implementing the 3 features above.
+
+    - The button. This is where it started. Started easy but two chips makes tessel tricky to reset
+    - The javascript. I didnt really do this but still overcomes a problem. Used as cheat code for the cli.
+    - The cli. Need to reset via usb *AND* wifi. 
+
+Start with button. 
 ### Such a simple button for such a simple task
 2 chips on tessel
 diagram - https://docs.google.com/drawings/d/124Qrry4MCywzKJq1mQSo8Xwk_S58YT4IG4OHf_2oUWM/pub?w=960&h=720
@@ -44,5 +51,7 @@ Daniel Buentello
 
 
 <sup>1</sup>Better wording. Somehow include version numbers released?
+
 <sup>2</sup>Run on sentence
+
 <sup>3</sup>Try to better tie this into reboot theme
