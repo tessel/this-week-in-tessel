@@ -13,7 +13,6 @@ Since the attack, [Mirai's source code has been released](https://krebsonsecurit
 5. Disable Universal Plug and Play (UPnP)
 6. (Bonus) Disable Telnet and SSH
 
-
 ### Unplug It
 
 > The best possible safeguard against hackers is to simply not have the device available for them.
@@ -30,7 +29,7 @@ When you deploy your project to Tessel's Flash memory, consider including a peri
 
 > Seriously, if you do only one thing to secure your device, do this.
 
-Tessel doesn't come with a default password because of this specific security consideration. Our [provisioning system](https://tessel.gitbooks.io/t2-docs/content/API/CLI.html#lan) is the only way to access the root system of Tessel over a network and requires a physical, USB connection to set up.
+Tessel doesn't come with a default password because of this specific security consideration. Our [provisioning system](https://tessel.gitbooks.io/t2-docs/content/API/CLI.html#lan) is the only way to access the root system of Tessel over a network and requires a physical, USB connection to set up. This system uses an [RSA key](https://en.wikipedia.org/wiki/RSA_(cryptosystem)) instead of a password.
 
 ### Update Firmware
 
