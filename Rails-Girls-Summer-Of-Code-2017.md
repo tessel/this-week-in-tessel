@@ -20,7 +20,7 @@ Shravika is an Undergraduate majoring in Computer Science and Engineering. It's 
 
 Brihi is majoring in Electronics and Communication Engineering and loves to mix and fiddle with creativity in code. She brings in the caffeine-induced, late night coding sessions along with fresh experiments in the team.
 
-### About our mentor - Kelsey
+#### About our mentor - Kelsey
 
 Kelsey is the team's mentor. She has been at Tessel since its beginning and is a member of the Tessel Project Steering Committee. All of the members of the Steering Committee are very excited to work with our RGSoC team– both to improve internal processes and mentoring capabilities, and to have the benefit of two full-time contributors building on Tessel!
 
@@ -28,7 +28,7 @@ Kelsey is the team's mentor. She has been at Tessel since its beginning and is a
 
 Rails Girls Summer of Code is a three month long award-winning global fellowship program aimed at bringing more diversity into Open Source.
 
-It is about helping __introduce newcomers__ to the world of programming further expand their knowledge and skills, by contributing to a worthwhile Open Source project. The focus is not on producing highly sophisticated code, but rather participants learning transferable skills from their project work. Apart from inducing coding skills in real world projects, the RGSoC inculcates community building, by introducing its scholars to the mentors who are in control of the actual projects.
+It is about helping __introduce newcomers__ to the world of programming further expand their knowledge and skills, by contributing to a worthwhile Open Source project. The focus is not on producing highly sophisticated code, but rather participants learning transferable skills from their project work. Apart from experience in large-scale projects, RGSoC also inculcates community building by introducing its scholars to people who maintain these projects and other members of the community involved in it.
 
 The RGSoC team structure goes like this :
 1. The Students - A pair of Students who are enthusiastic to work on a chosen Open Source Project.
