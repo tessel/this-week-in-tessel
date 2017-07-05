@@ -4,7 +4,7 @@
 
 Hey all,
 
-It has been a long long ride since February and it's finally July!
+It has been a long long ride since February (when we had to write our applications for RGSoC 2017) and it's finally July!
 This is when we start our Rails Girls Summer of Code (RGSoC) 2017 program, by working and contributing for Tessel. Having seen Tessel as a project in the RGSoC project list of 2017, we were eager to take it up at once since, we felt that through this project we would be able to discover both the horizons - Hardware and Software.
 
 
@@ -20,6 +20,9 @@ Shravika is an Undergraduate majoring in Computer Science and Engineering. It's 
 
 Brihi is majoring in Electronics and Communication Engineering and loves to mix and fiddle with creativity in code. She brings in the caffeine-induced, late night coding sessions along with fresh experiments in the team.
 
+### About our mentor - Kelsey
+
+Kelsey is the team's mentor. She has been at Tessel since its beginning and is a member of the Tessel Project Steering Committee. All of the members of the Steering Committee are very excited to work with our RGSoC team– both to improve internal processes and mentoring capabilities, and to have the benefit of two full-time contributors building on Tessel!
 
 ### What is [RGSoC](https://railsgirlssummerofcode.org/)?
 
@@ -31,13 +34,11 @@ The RGSoC team structure goes like this :
 1. The Students - A pair of Students who are enthusiastic to work on a chosen Open Source Project.
 1. A Project Mentor - Usually an active contributor in the Open Source Project that is chosen. He/She is responsible for guiding the students in the project related tasks, features that are to be added and overall development of the project.
 1. The Project Coaches - They are selected by the students during the time of the application and might be local (present in the same location as the students) or remote. They usually help the students in handling technical difficulties throughout the course of the program.
-1. The Project Supervisor - They are the representatives of the RGSoC orga team and guide the rest of the team with the procedures of the program.
+1. The Project Supervisor - They are the representatives of the RGSoC organisational team and guide the rest of the team with the procedures of the program.
  
 RGSoC has both the sides - technical as well as social. Apart from working on the project, we even need to get involved in social meets such as a team call with the project supervisor, maintaining daily logs about what was achieved and what challenges we encountered that day, writing blog posts about our experiences  etc.
 
 This year, 20 teams were selected among which, 16 are Sponsored teams (We are one of them :smile:) and 4 are Volunteer teams.
-
-### About our mentor - Kelsey
 
 ## What are we here for?
 
