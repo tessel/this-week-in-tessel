@@ -39,14 +39,16 @@ This year, 20 teams were selected among which, 16 are Sponsored teams (We are on
 
 ## What are we here for?
 
-First and most important of all, __to have fun!__ We are way too excited to start contributing and giving our best to this community. We are kicking off with the tutorials on the Tessel board and planning the implementation of the 1-wire protocol in Tessel, which requires a lot of reading and working from our end.
+First and most important of all, __to have fun!__ We are way too excited to start contributing and giving our best to this community.
 
-Then we are looking forward to move to a real world project, which can be solved using Tessel.
+Before the program started, we went through the Tessel repositories, got our development boards and familiarised ourselves with JavaScript. Soon after the program began, we sent in a few PRs to understand the contribution protocol of Tessel.
+
+Soon as we complete the Tessel tutorials, we would be kicking off with an implementation of the 1-wire protocol in Tessel, which requires a lot of reading and working from our end. Then we are looking forward to move to a real world project, which can be solved using Tessel.
 
 Before the beginning of RGSoC 17, we had formulated a plan to work on a project called Humanoid Arm Project ([HAP](https://techiiit.wordpress.com)). We would like to continue our work on this and bring it into realisation for solving some day to day problems using technology.
 
 Having experienced a few IoT developmemt boards before, we cannot wait to delve deeper into the various functionalities and modules that Tessel has got to offer us. Also, Rust and JavaScript is a new experience for us. This would be the first time both of us are contributing to an Open Source project and we would like to learn the most we can from it.
 
-Lastly, we really hope RGSoC would help us transition from Team 276linesofCode to _Tesselators_ so that we can be a part of this community even after RGSoC is over.
+We really hope RGSoC would help us transition from Team 276linesofCode to _Tesselators_ so that we can be a part of this community even after RGSoC is over.
 
 Here's to an exciting summer! :tada: :confetti_ball:
