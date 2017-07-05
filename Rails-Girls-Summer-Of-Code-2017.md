@@ -23,13 +23,19 @@ Brihi is majoring in Electronics and Communication Engineering and loves to mix 
 
 ### What is [RGSoC](https://railsgirlssummerofcode.org/)?
 
-Rails Girls Summer of Code is an award-winning global fellowship program aimed at bringing more diversity into Open Source.
+Rails Girls Summer of Code is a three month long award-winning global fellowship program aimed at bringing more diversity into Open Source.
 
 It is about helping __introduce newcomers__ to the world of programming further expand their knowledge and skills, by contributing to a worthwhile Open Source project. The focus is not on producing highly sophisticated code, but rather participants learning transferable skills from their project work. Apart from inducing coding skills in real world projects, the RGSoC inculcates community building, by introducing its scholars to the mentors who are in control of the actual projects.
 
-This year, 20 teams were selected among which, 16 are Sponsored teams (We are one of them :smile:) and 4 are Volunteer teams.
+The RGSoC team structure goes like this :
+1. The Students - A pair of Students who are enthusiastic to work on a chosen Open Source Project.
+1. A Project Mentor - Usually an active contributor in the Open Source Project that is chosen. He/She is responsible for guiding the students in the project related tasks, features that are to be added and overall development of the project.
+1. The Project Coaches - They are selected by the students during the time of the application and might be local (present in the same location as the students) or remote. They usually help the students in handling technical difficulties throughout the course of the program.
+1. The Project Supervisor - They are the representatives of the RGSoC orga team and guide the rest of the team with the procedures of the program.
+ 
+RGSoC has both the sides - technical as well as social. Apart from working on the project, we even need to get involved in social meets such as a team call with the project supervisor, maintaining daily logs about what was achieved and what challenges we encountered that day, writing blog posts about our experiences  etc.
 
-The RGSoC team not only consists of just two students, it even has a project mentor, a few coaches and a project supervisor. This program goes on for three months, from 1st July till 30th September. We are required to work continuously for the Open Source Organisation we got selected for. RGSoC has both the sides - technical as well as social. Apart from working on the project, we even need to get involved in social meets such as a team call with the project supervisor, maintaining daily logs about what was achieved and what challenges we encountered that day, writing blog posts about our experiences  etc.
+This year, 20 teams were selected among which, 16 are Sponsored teams (We are one of them :smile:) and 4 are Volunteer teams.
 
 ## What are we here for?
 
