@@ -1,5 +1,20 @@
 # Team 276linesofCode - Rails Girls Summer of Code 2017
 
+---
+*A note from Kelsey, mentor for team 275linesofCode:*
+
+*I loved working with Brihi and Shravika through the summer, and am so happy to see them still commenting and contributing in the Tessel channels, four months after the official close of the summer program.*
+
+*[Rails Girls Summer of Code](https://railsgirlssummerofcode.org/) provided just enough support (including requiring the mentees to find further technical help locally) that I could focus my role on finding the intersection between the project's needs and my team's interests.*
+
+*It was a pleasure to watch my team dive into challenges, struggle through frustrations, overcome shyness about asking for help, and really grow as contributors to the open source ecosystem. It also helped me to engage better with my own project, and was a wonderful source of energy for the Tessel Project as a whole.*
+
+*To the other open source projects out there: I strongly recommend [becoming a project mentor](https://railsgirlssummerofcode.org/guide/projects/)– this year's deadline is January 28th, so jump in soon!*
+
+*–[Kelsey](https://twitter.com/ifoundtheme)*
+
+---
+
 In June 2017, none of us had any idea what this journey would be like. RGSoC was the first Summer of Code or any other code mentorship program that we had been a part of. Our eagerness to grasp the most from the program kept us going all through the summer. We gained much more than we had even anticipated.
 
 We both believe that Tessel was the best project that we could have worked on, since it welcomes new contributors in a positive manner that motivates them to give back to the community as much as they can.
@@ -53,3 +68,8 @@ It was a great experience for both of us because we were able to pass on our kno
 RGSoC provided us with a whole lot of things that we didn't even imagine gaining in this interval of three months. As it was a wonderful journey for both of us, we have thought of recommending this program to more and more people by conducting a few related meetups at our University under our Rails Girls Summer of Code, Delhi Chapter. Apart from this, we had discussed way back with our mentor during the application process that we would love to contribute to Tessel even after RGSoC ends. The months might be over, but the memories are here to stay!
 
 Who would know that two confused, scared and shy humans who had absolutely no idea how they would survive the tech world could successfully complete RGSoC, loaded with experience and confidence?
+
+
+---
+
+*Check out [Rails Girls Summer of Code](https://railsgirlssummerofcode.org/) (it's not just for Rails), and get involved as a mentor or a mentee for 2018!*
